@@ -126,7 +126,7 @@ export default function App() {
     <>
       <Link href="/">Home</Link>
       <Link href="https://react.dev/learn/react-developer-tools" target="_bloank">Thinking in React</Link>
-      <FilterableProductTable products={PRODUCTS} />;
+      <FilterableProductTable products={PRODUCTS} />
 
     </>
 

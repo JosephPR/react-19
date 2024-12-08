@@ -12,6 +12,7 @@ export default function State() {
   const hasNext = index < sculptureList.length - 1;
 
   function handleNextClick() {
+    // hasNext handles reseting the index to 0 if it is at the end of the list.
     if (hasNext) {
       setIndex(index + 1);
     } else {
